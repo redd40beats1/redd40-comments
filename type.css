@@ -1,0 +1,33 @@
+/* Fonts are hosted locally; licenses are included in assets/fonts. */
+@font-face{font-family:Barlow;src:url('assets/fonts/Barlow-Regular.ttf') format('truetype');font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:Barlow;src:url('assets/fonts/Barlow-SemiBold.ttf') format('truetype');font-style:normal;font-weight:600 900;font-display:swap}
+@font-face{font-family:Rajdhani;src:url('assets/fonts/Rajdhani-Bold.ttf') format('truetype');font-style:normal;font-weight:700 900;font-display:swap}
+:root{--display:Rajdhani,'Arial Black',sans-serif;--body:Barlow,'Segoe UI',Arial,sans-serif}
+body{font-family:var(--body);font-size:17px;line-height:1.65}
+.brand{font-family:Rajdhani,sans-serif;font-style:normal;font-weight:700;font-size:31px;letter-spacing:-.5px}
+.hero h1{font-family:Rajdhani,sans-serif;font-weight:700;font-size:clamp(64px,9.1vw,124px);letter-spacing:-.04em;font-style:italic;line-height:.96}
+h2,h3{font-weight:700;letter-spacing:.005em;line-height:1.02}
+.feature h2{font-size:clamp(48px,5.8vw,78px)}.feature h2 small{letter-spacing:.025em;font-size:.49em}
+.feature-intro p:not(.eyebrow){font-size:17px;line-height:1.65}
+.hero-sub{font:400 16px/1.5 var(--body);letter-spacing:.02em}
+.eyebrow,.panel-bar,.hero-bottom,.ticker{font-family:var(--body);font-weight:600}
+.eyebrow{font-size:12px;letter-spacing:.13em}.panel-bar{font-size:11px;letter-spacing:.1em}
+.site-header nav a{font:700 15px/1.3 Rajdhani,sans-serif;letter-spacing:.04em}
+.metal-button,.text-link,.stream-burst b,.platforms a{font-family:var(--body)}
+.metal-button{font-size:15px;font-weight:600}.text-link{font-size:14px}
+.download-button{font-family:Rajdhani,sans-serif;font-weight:700;font-size:clamp(28px,3.4vw,44px)}
+.download-button small{font-family:var(--body);font-size:12px;letter-spacing:.11em}
+.download-under{font-size:13px}.release-grid dd{font-size:14px}.release-grid dt{font:600 11px/1.5 var(--body);letter-spacing:.08em}
+.version-strip strong{font-family:Rajdhani,sans-serif;font-style:normal;font-size:29px;letter-spacing:.02em}.version-strip span{font-size:13px;line-height:1.4}
+.mod-description{margin:0 40px 28px;color:#bfcfe4;font-size:15px;line-height:1.65;max-width:960px}
+.instructions li{font-size:15px;line-height:1.6;margin-bottom:19px}.instructions b{font-size:16px;font-weight:600}
+.instructions h3{font-size:27px}.accordion-grid summary{font:600 16px/1.4 var(--body)}.accordion-grid p,.accordion-grid ul{font-size:15px;line-height:1.65}
+.screenshot figcaption{font-family:var(--body);font-size:11px}.stream p,.about p,.comments p{font-size:16px;line-height:1.6}
+.stream-burst span{font-family:Rajdhani,sans-serif;font-weight:700;font-size:42px}.stream-burst small{font-family:var(--body);font-weight:600;font-size:15px}.stream-burst b{font-size:11px}
+.about .muted,.comments .comment-privacy,.comments #name-help{font-size:13px;line-height:1.6}
+.small-button,.guest-name-row label{font-family:var(--body);font-size:13px}.guest-name-row input{font-family:var(--body);font-size:16px;width:340px}
+.platforms a{font-size:16px}.platforms p{font-size:12px}
+footer .brand{font-size:25px}footer>a:last-child{font:600 12px/1.5 var(--body)}
+@media(max-width:950px){.hero h1{font-size:10vw}.site-header nav a{font-size:15px}.mod-description{margin-inline:28px}.stream-burst span{font-size:33px}}
+@media(max-width:650px){.brand{font-size:29px}.hero h1{font-size:12.2vw}.hero .eyebrow{font-size:9px;letter-spacing:.07em}.hero-sub{font-size:14px;max-width:215px}.site-header nav a{font-size:11px;letter-spacing:0}.metal-button{font-size:13px}.text-link{font-size:12px}.panel-bar{font-size:9px;letter-spacing:.04em}.feature h2{font-size:47px}.feature h2 small{font-size:23px}.feature-intro p:not(.eyebrow){font-size:16px}.feature .eyebrow{font-size:10px}.version-strip strong{font-size:22px}.version-strip span{font-size:11px}.mod-description{margin-inline:20px;font-size:14px}.download-button{font-size:30px;line-height:1.05}.download-button small{font-size:10px;letter-spacing:.06em}.download-under{font-size:12px}.release-grid dd{font-size:13px}.release-grid dt{font-size:10px}.instructions li{font-size:14px}.instructions b{font-size:15px}.accordion-grid summary{font-size:15px}.accordion-grid p,.accordion-grid ul{font-size:14px}.stream h2{font-size:40px}.stream-burst span{font-size:34px}.stream-burst small{font-size:13px}.screenshot figcaption{font-size:10px}.stream p,.about p,.comments p{font-size:15px}.about h2{font-size:30px}.about .muted,.comments .comment-privacy,.comments #name-help{font-size:12px}.guest-name-row input{width:100%}.hero-bottom{font-size:9px}footer .brand{font-size:23px}}
+

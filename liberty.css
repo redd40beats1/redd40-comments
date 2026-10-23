@@ -1,0 +1,100 @@
+/* Liberty Plus: scoped styles, local fonts, no decorative animation. */
+.liberty{margin-top:42px;border-top:3px solid #568eff;background:#0c152a;box-shadow:4px 4px 0 #020611}
+.liberty .panel-bar{background:#192944;border-bottom-color:#496589;font-size:12px;letter-spacing:.07em}
+.liberty-content{padding:36px 40px 12px;max-width:100%}
+.liberty h2{font-size:clamp(34px,4.5vw,60px);margin-bottom:22px}
+.liberty h2 span{display:block;color:#cbdfff}
+.liberty p{max-width:960px;font-size:17px;line-height:1.65;color:#d1dced}
+.liberty .liberty-compatibility{font-weight:600;color:#fff;padding:14px 18px;border-left:4px solid #78a5ff;background:#172842}
+.liberty-save-notice{padding:16px 18px;border:1px solid #a66676;border-left:4px solid #ff8ca1;background:#2b1928;line-height:1.6;margin:20px 0 28px}
+.liberty-save-notice strong{display:block;color:#fff}
+.liberty .download-block{margin:0 0 30px}
+.liberty .download-button{font-size:clamp(26px,3.4vw,42px);font-style:normal;min-height:100px;padding:22px}
+.liberty .download-button{background:linear-gradient(#b82840,#981b32 44%,#721028 45%,#a41c36)}
+.liberty .download-button small{color:#eef4ff;font-size:13px}
+.liberty #liberty-download-note{font-size:15px;color:#b9cbe5;margin-top:16px}
+.liberty-setup{border-top:1px solid #3e516e;padding-top:25px}
+.liberty .instructions li{font-size:17px;max-width:960px;margin-bottom:20px}
+.liberty .instructions b{font-size:18px}
+.liberty .instructions li:before{color:#ff9cae}
+.liberty .accordion-grid{background:#0a1222}
+.liberty .accordion-grid summary{min-height:58px;line-height:1.5}
+.liberty .accordion-grid li{margin-bottom:12px}
+.liberty-file-details{font-size:15px}
+.liberty-file-details dt{font-weight:600;color:#c9dcff;margin-top:12px}
+.liberty-file-details dd{margin:3px 0 14px;overflow-wrap:anywhere;color:#d1dced}
+.liberty-file-details code{font-size:14px;user-select:all}
+.liberty a:focus-visible,.liberty summary:focus-visible{outline:3px solid #ffd875;outline-offset:4px}
+.site-header nav{flex-wrap:wrap}
+.instructions li{overflow-wrap:anywhere}
+.liberty-downgrader-notice{margin:0 40px 32px;padding:22px 24px;border:3px solid #ff667d;background:#2c1421;color:#f9f0f4;overflow-wrap:anywhere}
+.liberty-downgrader-notice h3{font-size:clamp(21px,2.6vw,29px);line-height:1.25;margin-bottom:14px;color:#fff}
+.liberty-downgrader-notice p{margin-bottom:12px;font-size:17px;line-height:1.6}
+.liberty-downgrader-notice p:last-child{margin-bottom:0}
+.notice-clarification{padding-top:12px;border-top:1px solid #af5269;color:#f4c9d2}
+.liberty-features{padding-left:22px;margin:20px 0 24px;color:#d1dced;line-height:1.65}
+.liberty-features li{padding-left:4px;margin-bottom:7px}
+.liberty-stages{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin:24px 0 12px}
+.liberty-stages>section{min-width:0;padding:22px;background:#101e34;border:1px solid #496589}
+.liberty-stages h4{font:700 23px/1.25 var(--display);margin:0;color:#fff}
+.liberty .liberty-stages li{font-size:16px}
+.liberty .liberty-stages b{font-size:17px}
+.liberty-space-note{font-size:16px!important}
+@media(max-width:950px){.liberty-downgrader-notice{margin-inline:28px}.liberty-stages{grid-template-columns:1fr}}
+@media(max-width:650px){.liberty-downgrader-notice{margin:0 20px 28px;padding:17px 15px}.liberty-downgrader-notice p{font-size:16px}.liberty-stages>section{padding:18px 14px}.liberty h2{overflow-wrap:anywhere}}
+@media(min-width:651px) and (max-width:950px){.app-art>.fire{max-width:100%}}
+@media(max-width:650px){.site-header nav{grid-template-columns:repeat(6,minmax(0,1fr))}.site-header nav a{grid-column:span 2;padding:12px 4px}.site-header nav a:nth-last-child(-n+2){grid-column:span 3}.liberty-content{padding:26px 20px 10px}.liberty h2{font-size:38px}.liberty .panel-bar{font-size:10px}.liberty p,.liberty .instructions li{font-size:16px}.liberty .instructions b{font-size:17px}.liberty .download-button{font-size:29px;padding:20px 12px}.liberty .download-button small{font-size:12px}.liberty .liberty-compatibility{padding:12px}.liberty-save-notice{font-size:16px}.liberty .accordion-grid{grid-template-columns:1fr}.liberty .accordion-grid details{border-right:0}}
+
+/* Saints Row 2 download uses the existing panel, fonts and download button. */
+.sr2 .sr2-lead{font-size:20px;line-height:1.5;color:#f1f5ff}
+.sr2-warning{margin:22px 0 24px;border:3px solid #ff667d;background:#2c1421;padding:20px 22px;color:#f9f0f4;overflow-wrap:anywhere}
+.sr2-warning h3{font-size:clamp(21px,2.5vw,28px);line-height:1.3;color:#fff;margin-bottom:10px}
+.sr2 .sr2-warning p{margin-bottom:0;color:#f9f0f4}
+.sr2 .download-block{margin-top:28px}
+.sr2 .sr2-release{font-size:15px;margin:18px 0 0;color:#b9cbe5}
+.sr2 .sr2-details{grid-template-columns:1fr 1fr;padding:0;margin:34px 0 22px;gap:36px}
+.sr2 ul{padding-left:23px;margin:20px 0;line-height:1.65;color:#d1dced;font-size:17px}
+.sr2 ul li{margin-bottom:15px;padding-left:3px;overflow-wrap:anywhere}
+.sr2 h3{line-height:1.25}
+.sr2 .instructions ol{margin-top:20px}
+.sr2 .instructions li{font-size:17px;line-height:1.65}
+.sr2-good-to-know{border-top:1px solid #3e516e;padding-top:25px}
+.sr2-credits{border-top:1px solid #334967;padding:0 40px;background:#0a1222}
+.sr2-credits summary{font:600 16px/1.4 var(--body);padding:20px 0;min-height:58px;cursor:pointer}
+.sr2 .sr2-credits p,.sr2 .sr2-credits ul{font-size:16px;line-height:1.65}
+.sr2-credits a{overflow-wrap:anywhere}
+.sr2-sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media(max-width:950px){.sr2 .sr2-details{grid-template-columns:1fr;gap:24px}}
+@media(max-width:650px){.site-header nav a:nth-last-child(-n+2){grid-column:span 2}.sr2-warning{padding:17px 15px}.sr2 .sr2-lead{font-size:18px}.sr2 .sr2-release{font-size:14px}.sr2 ul,.sr2 .instructions li{font-size:16px}.sr2-credits{padding-inline:20px}.sr2 .download-button{font-size:29px;overflow-wrap:anywhere}}
+
+/* Shared comments: first-party styling, scoped to the official widget. */
+#comments .comments-content{padding:38px 40px}
+#comments h2{margin-bottom:20px}
+#comments #load-comments{margin:8px 0 16px}
+#comments #comments-status{font-size:14px;color:#c8d8f3;margin-bottom:20px}
+#comments #comments-tools{display:flex;align-items:center;gap:15px;flex-wrap:wrap;margin:20px 0}
+#comments #name-help{margin:0;max-width:640px}
+#comments .comment-privacy{max-width:950px;font-size:14px;color:#bfcfe4}
+#comments #HCB_comment_box{color:#e5edfc;font:16px/1.65 var(--body);overflow-wrap:anywhere}
+#comments #HCB_comment_box h3{font:700 24px/1.3 var(--display);margin:20px 0}
+#comments #HCB_comment_box>h3{display:none}
+#comments #HCB_comment_box form{border:1px solid #496589;background:#101e34;padding:22px;margin:14px 0 24px;max-width:100%}
+#comments #HCB_comment_box label.comment-field-label{display:block;margin:12px 0 7px;font-weight:600;color:#f1f5ff}
+#comments #HCB_comment_box input[type="text"],#comments #HCB_comment_box textarea{display:block;box-sizing:border-box;width:100%;max-width:100%;min-width:0;border:1px solid #7085a5;border-radius:0;background:#050e1e;color:#f1f5ff;font:16px/1.5 var(--body);padding:12px;margin-bottom:15px}
+#comments #HCB_comment_box input::placeholder,#comments #HCB_comment_box textarea::placeholder{color:#aebfd9;opacity:1}
+#comments #HCB_comment_box textarea{min-height:140px;resize:vertical}
+#comments #HCB_comment_box button,#comments #HCB_comment_box input[type="submit"],#comments #HCB_comment_box .btn{display:inline-block;min-height:44px;border:1px solid #b7d1f3;border-radius:0;color:#fff;background:#254a85;font:600 15px/1.4 var(--body);padding:10px 16px;margin:6px 6px 6px 0;cursor:pointer;text-decoration:none}
+#comments #HCB_comment_box #hcb_submit{background:#a21d39;border-color:#ffb6c1}
+#comments #HCB_comment_box a{color:#bcd7ff;text-decoration:underline}
+#comments #HCB_comment_box a:focus-visible,#comments #HCB_comment_box button:focus-visible,#comments #HCB_comment_box input:focus-visible,#comments #HCB_comment_box textarea:focus-visible{outline:3px solid #ffd875;outline-offset:4px}
+#comments #HCB_comment_box img{max-width:100%;height:auto;display:inline-block;vertical-align:middle}
+#comments #HCB_comment_box .comment{margin:20px 0;padding:16px;border:1px solid #3e516e;background:#0c172b}
+#comments #HCB_comment_box .comment .comment{margin-left:12px}
+#comments #HCB_comment_box .home-desc{font-size:12px;color:#b4c5e0;margin-top:12px}
+#comments #HCB_comment_box .hcb-icon{width:16px;height:16px}
+#comments #HCB_comment_box .hcb-err{color:#ffb7c5}
+#comments .comments-admin{border-top:1px solid #3e516e;padding-top:20px;margin-top:26px;font-size:13px}
+#comments .comments-admin span{display:block;margin-top:5px}
+@media(max-width:650px){#comments .comments-content{padding:27px 20px}#comments #HCB_comment_box form{padding:15px}#comments #HCB_comment_box .comment .comment{margin-left:0}}
+
+#comments #HCB_comment_box #hcb_file_label .btn{background:#254a85!important;color:#fff!important}
